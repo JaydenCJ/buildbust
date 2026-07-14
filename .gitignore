@@ -1,0 +1,17 @@
+# build artifacts
+/buildbust
+/dist/
+
+# test and coverage output
+*.test
+*.out
+coverage.*
+
+# local snapshots from trying the tool on this repo
+.buildbust.json
+
+# editor noise
+.idea/
+.vscode/
+*.swp
+.DS_Store
